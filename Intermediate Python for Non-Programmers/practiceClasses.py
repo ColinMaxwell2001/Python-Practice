@@ -16,7 +16,7 @@ class Dog:
         print("\nI am a dog and I am barking\n")
     
 
-#Regular Method within no class
+# Regular Method within no class
 def getUserInput():
     # Retrieving Input from a User
     val = input("Enter your name: ")
@@ -33,6 +33,7 @@ def main():
     d2 = Dog(name)
     print(d2.info)   # Printing info variable 
     d2.barking()     # Calling Barking method 
+    
 
 
 
